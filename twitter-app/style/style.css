@@ -1,3 +1,20 @@
+::-webkit-scrollbar {
+width: 14px;
+}
+::-webkit-scrollbar-track {
+background-color: #1f2532;
+border-radius: 1px;
+}
+::-webkit-scrollbar-thumb {
+background-color: #55bace;
+border-radius: 1px;
+}
+::-webkit-scrollbar-thumb:hover {
+background-color: #559cce;
+border-radius: 1px;
+}
+
+
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
