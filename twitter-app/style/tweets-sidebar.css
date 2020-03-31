@@ -1,0 +1,70 @@
+.tweets-sidebar-container {
+    width: 50%;
+    display: flex;
+}
+
+.tweets-sidebar {
+	width: 400px;
+    height: 800px;
+    margin: 80px;
+    background-color: white;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 60px;
+    position: fixed;
+}
+
+.tweets-trending {
+	background: #F2F2F2;
+    border-radius: 60px;
+    height: 480px;
+    margin: 16px;	
+}
+
+.trends-for-you {
+	font-size: 18px;
+    line-height: 25px;
+    color: #848586;
+    height: 25px;
+    padding-left: 45px;
+    padding-top: 30px;
+    font-family: Open Sans;	
+    font-weight: normal;
+}
+
+.trends-for-you h5 {
+	font-weight: bold;
+    font-size: inherit;
+}
+
+.tweets-trending-list {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 35px;
+    color: #A5A5A6;
+    margin-top: 45px;
+}
+
+.tweets-trending-list ul {
+   list-style-type: none;
+   padding: 1px;
+}
+
+.tweets-trending-list li  {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-top: 0.5px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    padding-left: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    color: #A5A5A6;
+}
+
