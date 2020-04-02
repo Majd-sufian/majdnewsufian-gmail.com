@@ -60,7 +60,7 @@ const getTwitterData = () => {
         return response.json();
     }).then((data)=>{
         buildTweets(data.statuses);
-        saveNextPage(data.search_metadata);
+        // saveNextPage(data.search_metadata);
         // nextPageButtonVisibility(data.search_metadata)
     });
 }
@@ -83,7 +83,7 @@ const getTwitterData = () => {
 
 const buildTweets = (tweets, nextPage) => {
     let twitterContent = "";
-    var x = Object.keys(tweets).length;
+    // var x = Object.keys(tweets).length;
     if (Object.keys(tweets).length === 0){
     let twitterEmpty = ''
     	twitterEmpty += `
